@@ -30,3 +30,28 @@ body {
     cursor: pointer;
     margin: 10px;
 }
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.zero {
+    width: 145px;
+}
+
+.calculator .sign {
+    color: #5c96e3;
+}
+
+.calculator .sign-2 {
+    color: #a87116;
+}
